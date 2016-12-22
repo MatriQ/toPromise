@@ -1,0 +1,23 @@
+{
+  "name": "topromise",
+  "version": "1.0.0",
+  "description": "cover a function to promise",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/MatriQ/toPromise.git"
+  },
+  "keywords": [
+    "function",
+    "promise"
+  ],
+  "author": "MatriQ",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MatriQ/toPromise/issues"
+  },
+  "homepage": "https://github.com/MatriQ/toPromise#readme"
+}
