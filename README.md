@@ -1,9 +1,7 @@
 # toPromise
 convert a function to promise
 
- [![Build Status](https://img.shields.io/travis/then/is-promise/master.svg)](https://travis-ci.org/then/is-promise)
- [![Dependency Status](https://img.shields.io/david/then/is-promise.svg)](https://david-dm.org/then/is-promise)
- [![NPM version](https://img.shields.io/npm/v/is-promise.svg)](https://www.npmjs.org/package/is-promise)
+ [![NPM version](https://img.shields.io/npm/v/is-promise.svg)](https://www.npmjs.org/package/toppromise)
 
 ## Installation
 
