@@ -3,9 +3,9 @@
  */
 'use strict';
 
-Function.prototype.promise = function () {
+Function.prototype.promise = function (sender) {
     let args = [];
-    for (let i = 0; i < arguments.length; i++) {
+    for (let i = 1; i < arguments.length; i++) {
         args.push (arguments[i]);
     }
     
@@ -19,7 +19,7 @@ Function.prototype.promise = function () {
             }
         });
         try {
-            this.apply (this, args);
+            this.apply (sender, args);
         }
         catch (e) {
             reject (e);

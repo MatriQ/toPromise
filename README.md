@@ -23,7 +23,7 @@ let func = function (a, cb) {
     }
 };
 
-func.promise(a,b)
+func.promise(this,a,b)
     .then(function(result){
         //TODO:...
     })
